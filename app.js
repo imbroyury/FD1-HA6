@@ -54,7 +54,7 @@ function checkLeapYear(year) {
 }
 
 function getMonthOfBirth() {
-    let month = Number(prompt('Введите число от 1 до 12 для указания месяца вашего рождения, где 1 - январь, 12 - декабрь.'));
+    let month = Number(prompt('Введите число от 1 до 12 для указания месяца вашего рождения, где 1 - январь, 12 - декабрь'));
     while (month < 1 || month > 12 || isNaN(month)) {
         month = Number(prompt('Неверно указан месяц. Повторите ввод (1 – январь ... 12 - декабрь)'));
     }
